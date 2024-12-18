@@ -309,6 +309,7 @@
         "verifiesRightNpmVersion": "验证环境中是否存在正确的 npm 版本",
         "shouldPrint": "应该打印 `{version}`",
         "installsFnm": "安装 fnm (快速 Node 管理器)",
+        "installsPnpm": "安装 pnpm (快速、磁盘空间高效的包管理器)",
         "downloadAndInstallNodejs": "下载并安装 Node.js",
         "activateFNM": "激活 fnm",
         "noteWithColon": "注意：",

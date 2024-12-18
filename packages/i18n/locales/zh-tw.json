@@ -300,6 +300,7 @@
         "verifiesRightNpmVersion": "驗證環境中正確的 npm 版本",
         "shouldPrint": "應該顯示 `{version}`",
         "installsFnm": "安裝 fnm (快速 Node 管理器)",
+        "installsPnpm": "安裝 pnpm (快速、節省磁碟空間的套件管理器)",
         "downloadAndInstallNodejs": "下載並安裝 Node.js",
         "activateFNM": "啟用 fnm",
         "noteWithColon": "請注意：",

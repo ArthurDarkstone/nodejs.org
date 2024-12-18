@@ -17,6 +17,7 @@ export enum PackageManagerLabel {
   BREW = 'Brew',
   CHOCO = 'Chocolatey',
   DOCKER = 'Docker',
+  PNPM = 'pnpm',
 }
 
 export const operatingSystemItems = [
@@ -58,6 +59,10 @@ export const platformItems = [
   {
     label: PackageManagerLabel.DOCKER,
     value: 'DOCKER' as PackageManager,
+  },
+  {
+    label: PackageManagerLabel.PNPM,
+    value: 'PNPM' as PackageManager,
   },
 ];
 

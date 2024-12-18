@@ -309,6 +309,7 @@
         "verifiesRightNpmVersion": "doğru npm sürümünün ortamda bulunduğunu doğrular",
         "shouldPrint": "şu çıktıyı vermelidir: `{version}`",
         "installsFnm": "fnm (Fast Node Manager) kurar",
+        "installsPnpm": "pnpm (Hızlı, disk alanı verimli paket yöneticisi) kurar",
         "downloadAndInstallNodejs": "Node.js indirip kurun",
         "activateFNM": "fnm'i etkinleştir",
         "noteWithColon": "NOT:",

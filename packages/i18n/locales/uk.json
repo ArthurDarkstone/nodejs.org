@@ -307,6 +307,7 @@
         "verifiesRightNpmVersion": "перевіряє правильність версії npm у середовищі",
         "shouldPrint": "повинно вивести `{version}`",
         "installsFnm": "установлює fnm (Fast Node Manager)",
+        "installsPnpm": "установлює pnpm (швидкий, ефективний за обсягом диска менеджер пакетів)",
         "downloadAndInstallNodejs": "завантажує й установлює Node.js",
         "activateFNM": "активує fnm",
         "noteWithColon": "ПРИМІТКА:",

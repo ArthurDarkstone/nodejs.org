@@ -307,6 +307,7 @@
         "verifiesRightNpmVersion": "verifies the right npm version is in the environment",
         "shouldPrint": "should print `{version}`",
         "installsFnm": "installs fnm (Fast Node Manager)",
+        "installsPnpm": "installs pnpm (Fast, disk space efficient package manager)",
         "downloadAndInstallNodejs": "download and install Node.js",
         "activateFNM": "activate fnm",
         "noteWithColon": "NOTE:",

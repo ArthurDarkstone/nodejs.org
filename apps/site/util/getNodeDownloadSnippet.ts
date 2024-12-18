@@ -16,6 +16,7 @@ export const getNodeDownloadSnippet = (
     BREW: '',
     DOCKER: '',
     CHOCO: '',
+    PNPM: '',
   };
 
   if (os === 'WIN' || os === 'MAC' || os === 'LINUX') {
@@ -59,6 +60,19 @@ export const getNodeDownloadSnippet = (
 
       # ${t('layouts.download.codeBox.downloadAndInstallNodejs')}
       fnm use --install-if-missing ${release.major}
+
+      # ${t('layouts.download.codeBox.verifiesRightNodejsVersion')}
+      node -v # ${t('layouts.download.codeBox.shouldPrint', { version: release.versionWithPrefix })}
+
+      # ${t('layouts.download.codeBox.verifiesRightNpmVersion')}
+      npm -v # ${t('layouts.download.codeBox.shouldPrint', { version: release.npm })}`;
+
+    snippets.PNPM = dedent`
+      # ${t('layouts.download.codeBox.installsPnpm')}
+      curl -fsSL https://get.pnpm.io/install.sh | sh -
+
+      # ${t('layouts.download.codeBox.downloadAndInstallNodejs')}
+      pnpm env use --global lts
 
       # ${t('layouts.download.codeBox.verifiesRightNodejsVersion')}
       node -v # ${t('layouts.download.codeBox.shouldPrint', { version: release.versionWithPrefix })}

@@ -307,6 +307,7 @@
         "verifiesRightNpmVersion": "memastikan versi npm yang benar ada di lingkungan",
         "shouldPrint": "seharusnya mencetak `{version}`",
         "installsFnm": "menginstal fnm (Pengelola Node Cepat)",
+        "installsPnpm": "menginstal pnpm (Pengelola paket yang cepat dan hemat ruang disk)",
         "downloadAndInstallNodejs": "unduh dan pasang Node.js",
         "activateFNM": "aktifkan fnm",
         "noteWithColon": "CATATAN:",

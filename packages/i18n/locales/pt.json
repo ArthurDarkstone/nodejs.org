@@ -309,6 +309,7 @@
         "verifiesRightNpmVersion": "verifica se a versão correta da npm está no ambiente",
         "shouldPrint": "deve imprimir `{version}`",
         "installsFnm": "instala a fnm (Fast Node Manager, ou Gestor Rápido de Node)",
+        "installsPnpm": "instala o pnpm (Gestor de Pacotes Rápido e Eficiente em Espaço de Disco)",
         "downloadAndInstallNodejs": "decarregar e instalar a Node.js",
         "activateFNM": "ativar a fnm",
         "noteWithColon": "NOTA:",
